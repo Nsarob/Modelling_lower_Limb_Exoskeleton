@@ -42,10 +42,7 @@ world_rot_damping = 0;  % Rotational damping for 6-DOF joint [N*m/(rad/s)]
 % Height of the 6-DOF joint between the ground and robot torso
 init_height = lower_leg_length + upper_leg_length + torso_offset_height ...
               + foot_z/2 + plane_z/2;  
-% Joint angles [hip_yaw, hip_roll, hip_pitch, knee, ankle_pitch, ankle_roll]
-init_angs_R = zeros(6,1);
-init_angs_L = zeros(6,1);
-          
+
 %% Robot joint parameters
 joint_damping = 1;
 motion_time_constant = 0.001;
