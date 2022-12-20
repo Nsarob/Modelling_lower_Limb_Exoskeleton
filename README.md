@@ -2,7 +2,7 @@
 Examples of Matlab and Simulink files for modelling Lower Limb Exoskelton
 
 
-# Howto open
+# How to open
 
-Bigin by starting robotparameters.m MATLAB code 
+Bigin by starting robotparameters.m MATLAB code/ 
 run the Simscape/Simulink model
